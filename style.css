@@ -1,9 +1,17 @@
+* {
+    font-family: 'Ropa Sans', sans-serif;
+   
+}
+body {
+    margin-left: 0;
+    width: 100%;
+}
+
 
 .nav-bar {
     position: fixed;
     top: 0;
     width: 100%;
-    margin-top: 10px;
     background-color: black;
     color: white;
 }
@@ -31,7 +39,7 @@
     margin-top: 100px;
 }
 .rick-hero {
-    margin-top: 65px;
+    margin-top: 56px;
     width: 100%;
     height: 600px;
     background-image: url('https://cnet1.cbsistatic.com/img/eNyjKGyZqMtaQjfnWFiTTnuNXFs=/2020/04/10/df9a45f1-52f1-439b-aed1-a3882ea6037f/twitter-in-stream-wide-tiger-king-rick-kirkham-1.jpg');
@@ -45,6 +53,16 @@
     position: absolute;
     background-color: rgba(255, 255, 255, 0.842);  
 }
+
+.rick-container:hover{
+    background-color: white;
+}
+
+.about-me-container:hover{
+    background-color: white;
+}
+
+
 .rick-paragraph {
     /* background-color: rgba(255, 255, 255, 0.842); */
     line-height: 0.7em;
@@ -90,7 +108,7 @@
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
-    height : 300px;
+    height : 600px;
     width: 100%
 }
 
@@ -115,6 +133,7 @@
     flex-direction: row;
     align-content: center;
     justify-content: space-between;
+    margin-top: 150px;
 }
 
 .work-div {
@@ -142,8 +161,14 @@
     display: flex;
     align-content: center;
     justify-items: center;
-    width: 50%;
+    width: 100%;
+    height: 100%;
     text-align: center;
+}
+
+.work-image-pic {
+    width: 60%;
+    margin: auto
 }
 
 .tv-junkie-image {
@@ -161,3 +186,5 @@ footer {
 .make-america-exotic-again-image {
     width: 100%;
 }
+
+
