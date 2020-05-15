@@ -90,7 +90,7 @@
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
-    height : 600px;
+    height : 300px;
     width: 100%
 }
 
@@ -100,9 +100,14 @@
     justify-self: flex-end;
 }
 
+.skill-card {
+    height: 250px;
+    width: 25%
+}
 
 .skill-image {
-    width: 25%
+    width: 25%;
+    height: 25%
 }
 
 .work-section {
@@ -122,6 +127,17 @@
     justify-content: center;
 }
 
+.work-div p {
+    width: 80%;
+    margin: auto
+}
+
+.work-div hr{
+    width: 80%
+}
+
+
+
 .work-image {
     display: flex;
     align-content: center;
@@ -140,4 +156,8 @@
 
 footer {
     text-align: center;
+}
+
+.make-america-exotic-again-image {
+    width: 100%;
 }
